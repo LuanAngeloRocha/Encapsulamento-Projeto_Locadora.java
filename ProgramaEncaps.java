@@ -1,5 +1,6 @@
 public class ProgramaEncaps {
 	public static void main(String[] args) {
+		/*Criação do objeto */
 		Filme f = new Filme();
 		f.setCodigo(123);
 		f.setNome("A Era do Gelo");

@@ -1,10 +1,11 @@
 
     public class Filme {
+        /*Declaração das variaveis privadas (encapsulamento)*/
         private int codigo;
         private String nome;
         private double valor;
         private boolean disponivel;
-    
+    /* Retornando os valores das variaveis do encapsulamento */
         public int getCodigo() {
             return codigo;
         }
@@ -49,7 +50,7 @@
         public void devolver() {
             disponivel = true;
         }
-        
+        /* executando o metodo com os prints*/
         public void mostra(){
             System.out.println("Código do filme:" + this.codigo);
             System.out.println("Nome do filme:" + this.nome);
